@@ -10,7 +10,7 @@ cd "$REPO_DIR"
 
 CLAUDE_BIN="$HOME/.local/bin/claude"
 
-"$CLAUDE_BIN" -p "$(cat "$REPO_DIR/.sync-prompt.txt")" \
+"$CLAUDE_BIN" -p "$(cat "$REPO_DIR/scripts/sync-prompt.txt")" \
   --allowedTools "Bash Read Write Edit Glob Grep WebFetch Skill" \
   >> "$LOG_FILE" 2>&1
 
