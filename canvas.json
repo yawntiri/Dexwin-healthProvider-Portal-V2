@@ -1,0 +1,12 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html", "x": 0, "y": 0, "w": 1440, "h": 900, "title": "Sign In" },
+    { "file": "Bills.dc.html", "x": 1520, "y": 0, "w": 1440, "h": 900, "title": "Bills" },
+    { "file": "Patients.dc.html", "x": 3040, "y": 0, "w": 1440, "h": 900, "title": "Patients" },
+    { "file": "Pending.dc.html", "x": 4560, "y": 0, "w": 1440, "h": 900, "title": "Generate Bill – Pending" },
+    { "file": "Success.dc.html", "x": 0, "y": 980, "w": 1440, "h": 900, "title": "Generate Bill – Success" },
+    { "file": "Declined.dc.html", "x": 1520, "y": 980, "w": 1440, "h": 900, "title": "Generate Bill – Declined" },
+    { "file": "Expired.dc.html", "x": 3040, "y": 980, "w": 1440, "h": 900, "title": "Generate Bill – Expired" }
+  ],
+  "launch": { "view": "canvas" }
+}
